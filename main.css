@@ -1,0 +1,259 @@
+body {
+    width : 900px;
+    height : 1500px;
+    margin-left : auto;
+    margin-right : auto;
+    background-color : #f8f9fb;
+}
+
+
+header {
+    position : relative;
+    text-align : center;
+    z-index: 1;
+}
+
+header::after {
+    width : 100%;
+    height : 100%;
+    content : "";
+    background : url("header.jpg");
+    background-repeat : no-repeat;
+    background-size : cover;
+    background-position: center center;
+    position : absolute;
+    top : 0;
+    left : 0;
+    z-index: -1;
+    opacity : 0.6;
+}
+
+h1 {
+    display : table-cell;
+    vertical-align : middle;
+    font-size : 40px;
+    font-family : 'Tahoma';
+    width : 900px;
+    height : 150px;
+}
+
+a {
+    font-size : 20px;
+    font-family : 'Trebuchet MS';
+    display : inline-block;
+    width : 120px;
+    text-decoration-line : none;
+    color : inherit;
+}
+
+.profile {
+    width : 900px;
+    height : 400px;
+    position : relative;
+    margin-top : 30px;
+    background-color : #ece4dc;
+}
+
+h2 {
+    position : absolute;
+    left : 45px;
+    text-align : left;
+    font-size : 30px;
+    font-family : 'Tahoma';
+}
+
+ul {
+    position: absolute;
+    top : 90px;
+    left : 40px;
+
+    padding : 0px;
+    margin : 0px;
+    list-style : none;
+}
+
+li {
+    font-size : 20px;
+    font-family : 'Trebuchet MS';
+    margin : 5px;
+
+    display : block;
+    width : 400px;
+    height : 53px;
+}
+
+.profile-picture {
+    position: absolute;
+    top : 60px;
+    left : 550px;
+    width : 260px;
+    height : 300px;
+}
+
+.mbti {
+    width : 900px;
+    height : 400px;
+    position : relative;
+    margin-top : 30px;
+    background-color : #ece4dc;
+}
+
+.mbti-barI {
+    position : absolute;
+    top : 90px;
+    left : 10%;
+    background-color : #faf6f0;
+    width : 80%;
+    border-radius : 5px;
+}
+
+.mbti-barN {
+    position : absolute;
+    top : 150px;
+    left : 10%;
+    background-color : #faf6f0;
+    width : 80%;
+    border-radius : 5px;
+}
+
+.mbti-barF {
+    position : absolute;
+    top : 210px;
+    left : 10%;
+    background-color : #faf6f0;
+    width : 80%;
+    border-radius : 5px;
+}
+
+.mbti-barJ {
+    position : absolute;
+    top : 270px;
+    left : 10%;
+    background-color : #faf6f0;
+    width : 80%;
+    border-radius : 5px;
+}
+
+.select {
+    background-color : #AEC09A;
+    color : white;
+    padding : 1%;
+    text-align : right;
+    font-size : 18px;
+    border-radius : 5px;
+}
+
+.i {
+    width : 57%;
+}
+
+.n {
+    width : 78%;
+}
+
+.f {
+    width : 54%;
+}
+
+.j {
+    width : 92%;
+}
+
+.text {
+    position: absolute;
+    top : 90px;
+    left : 5%;
+    color : #344C11;
+
+    padding : 0px;
+    margin : 0px;
+    list-style : none;
+}
+
+.text li {
+    display : block;
+    width : 20px;
+    height : 55px;
+    font-weight : bold;
+    font-family : 'Tahoma';
+}
+
+.content {
+    position: absolute;
+    top : 330px;
+    left : 5%;
+    width : 85%;
+    font-size : 30px;
+    border : 1px solid white;
+}
+
+.interests {
+    width : 900px;
+    height : 500px;
+    position : relative;
+    margin-top : 30px;
+    background-color : #ece4dc;
+}
+
+.interests-content {
+    position: absolute;
+    top : 90px;
+    left : 5%;
+    width : 80%;
+    height : 60%;
+    text-align : center;
+    padding : 5%;
+}
+
+.interests-content-picture {
+    display : inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    overflow: hidden;
+    margin : 0px 40px;
+}
+
+.interests-content-text {
+    display : inline-block;
+    width : 190px;
+    height : 50px;
+    margin : 30px 20px;
+    padding : 30px 0;
+    line-height : 1.5;
+    word-break : keep-all;
+    background-color : #faf6f0;
+}
+
+.contact {
+    width : 900px;
+    height : 300px;
+    position : relative;
+    margin-top : 30px;
+    background-color : #ece4dc;
+}
+
+.account {
+    position: absolute;
+    top : 90px;
+    left : 40px;
+
+    padding : 0px;
+    margin : 0px;
+    list-style : none;
+}
+
+.account li {
+    font-size : 20px;
+    font-family : 'Trebuchet MS';
+    margin : 5px;
+
+    display : block;
+    width : 400px;
+    height : 53px;
+}
+
+.account a {
+    color : #344C11;
+    text-decoration : underline;
+}
